@@ -1,0 +1,17 @@
+{
+  "name": "json_ang_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.8",
+    "nodemon": "^1.18.3"
+  }
+}
