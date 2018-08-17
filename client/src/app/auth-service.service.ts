@@ -4,8 +4,8 @@ import { Router } from '@angular/router';
 
 @Injectable()
 export class AuthServiceService {
-  private register_url = 'http://localhost:3000/api/register';
-  private login_url = 'http://localhost:3000/api/login';
+  private register_url = '/api/register';
+  private login_url = '/api/login';
   constructor(private http: HttpClient, private router: Router) {}
   registerUser(user) {
     return this.http.post(this.register_url, user);
